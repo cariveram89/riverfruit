@@ -97,7 +97,8 @@ public class ProductDao {
 
 	}
 	public void putProducts1(Connection conn, ProductEntity product,String code) throws SQLException {
-		
+		//git basch , mi primer commit solo
+		//mi segundo commit
 		DbUtil dbUtil = new DbUtil();
 		conn = dbUtil.connectionDb();
 		Statement statement = conn.createStatement();
